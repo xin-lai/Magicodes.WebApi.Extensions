@@ -1,4 +1,19 @@
-﻿using Magicodes.Logger;
+﻿// ======================================================================
+//  
+//          Copyright (C) 2016-2020 湖南心莱信息科技有限公司    
+//          All rights reserved
+//  
+//          filename : WebApiExceptionFilterBuilder.cs
+//          description :
+//  
+//          created by 李文强 at  2016/10/12 16:23
+//          Blog：http://www.cnblogs.com/codelove/
+//          GitHub：https://github.com/xin-lai
+//          Home：http://xin-lai.com
+//  
+// ======================================================================
+
+using Magicodes.Logger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,7 +80,7 @@ namespace Magicodes.WebApi.ExceptionFilter
         }
 
         //    Register<SqlException>(
-        //      (exception, request) =>
+        //      (exception, request, logger) =>
         //      {
         //          var sqlException = exception as SqlException;
 
